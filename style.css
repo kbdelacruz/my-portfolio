@@ -550,6 +550,21 @@ p {
   background: #55acee;
 }
 
+#media a {
+  text-decoration: none;
+  color: white;
+}
+
+#personal a {
+  text-decoration: none;
+  color: rgb(144, 141, 182);
+}
+
+#address a {
+  text-decoration: none;
+  color: white;
+}
+
 #media,
 #address {
   text-align: right;
@@ -600,12 +615,45 @@ p {
 
 /*------ about page ------*/
 .about {
-  height: 100px;
   margin-top: 120px;
+  margin-bottom: 50px;
 }
 
-.image {
-  background: url(img/kobe-image.jpg) no-repeat 50% 20%;
+.about-container1 {
+  width: 90%;
+  display: flex;
+  margin: -7% auto 20px auto;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.about-container1 img {
+  height: 520px;
+}
+.about-text {
+  width: 520px;
+}
+
+.about-text p:nth-child(1),
+.about-text p:nth-child(2) {
+  color: #7e7d7d;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .about {
+    margin-top: 0px;
+  }
+
+  .about-container1 {
+    display: list-item;
+    list-style: none;
+    text-align: center;
+  }
+  .about-text {
+    margin-top: 20px;
+    width: 390px;
+  }
 }
 
 /*------ contact form ------*/
