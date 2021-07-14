@@ -179,7 +179,7 @@ nav #menu li a:hover {
 #resize #menu {
   height: 90px;
   position: absolute;
-  left: 45%;
+  left: 40%;
   transform: translateX(-40%);
   text-align: center;
   display: table-cell;
@@ -645,6 +645,10 @@ p {
     margin-top: 0px;
   }
 
+  .about-container1 img {
+    height: 450px;
+  }
+
   .about-container1 {
     display: list-item;
     list-style: none;
@@ -652,7 +656,7 @@ p {
   }
   .about-text {
     margin-top: 20px;
-    width: 390px;
+    width: 305px;
   }
 }
 
